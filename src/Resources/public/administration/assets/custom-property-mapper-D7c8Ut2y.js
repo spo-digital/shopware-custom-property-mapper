@@ -1,0 +1,2 @@
+var e,t;function p(){var r;return t||(t=1,e=(r=window.Shopware)==null?void 0:r.Vue),e}p();Shopware.Module.register("property-mapper",{type:"plugin",name:"Property Mapper",title:"Eigenschafts-Abgleich",description:"Startet den vollständigen Abgleich manuell.",routes:{index:{component:"property-mapper",path:"index"}},navigation:[{label:"Eigenschafts-Abgleich",path:"property-mapper.index",parent:"sw-catalogue",position:100}]});
+//# sourceMappingURL=custom-property-mapper-D7c8Ut2y.js.map
