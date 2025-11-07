@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<acl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/Framework/Acl/AclDefinition.xsd">
+
+    <resource key="custom_property_mapper">
+        <privilege key="viewer">
+            <label>custom_property_mapper.viewer</label>
+        </privilege>
+    </resource>
+
+    <role key="system.administrator">
+        <privilege>custom_property_mapper.viewer</privilege>
+    </role>
+</acl>
